@@ -3,4 +3,66 @@
 	<head>
 		<script src="./index.js"></script>
 	</head>
+    <body>
+        <div id="circleArea">
+            <h4>Area of Circle:</h4>
+            <label for="circleRadius">Radius:</label>
+            <input id="circleRadius" type="number"><br/>
+            <button onclick="getCircleArea();">Calculate!</button>
+        </div>
+        <hr/>
+        <div id="rectArea">
+            <h4>Area of Rectangle</h4>
+            <label for="rectLength">Length:</label>
+            <input id="rectLength" type="number"><br/>
+            <label for="rectHeight">Height:</label>
+            <input id="rectHeight" type="number"><br/>
+            <button onclick="getRectArea();">Calculate!</button>
+        </div>
+        <hr/>
+        <div id="triangleArea">
+            <h4>Area of Triangle</h4>
+            <label for="triangleHeight">Height:</label>
+            <input id="triangleHeight" type="number"><br/>
+            <label for="triangleBase">Base:</label>
+            <input id="triangleBase" type="number"><br/>
+            <button onclick="getTriangleArea();">Calculate!</button>
+        </div>
+        <hr/>
+        <div id="calculateHypo">
+            <h4>Hypothenuse of a Right Angled Triangle</h4>
+            <label for="hypoOpposite">Height:</label>
+            <input id="hypoOpposite" type="number"><br/>
+            <label for="hypoAdjacent">Base:</label>
+            <input id="hypoAdjacent" type="number"><br/>
+            <button onclick="getHypo();">Calculate!</button>
+        </div>
+        <hr/>
+        <div id="boxVolume">
+            <h4>Volume of a box</h4>
+            <label for="boxLength">Length:</label>
+            <input id="boxLength" type="number"><br/>
+            <label for="boxHeight">Height:</label>
+            <input id="boxHeight" type="number"><br/>
+            <label for="boxDepth">Depth:</label>
+            <input id="boxDepth" type="number"><br/>
+            <button onclick="getBoxVolume();">Calculate!</button>
+        </div>
+        <hr/>
+        <div id="cylinderVolume">
+            <h4>Volume of a Cylinder</h4>
+            <label for="cylinderRadius">Radius:</label>
+            <input id="cylinderRadius" type="number"><br/>
+            <label for="cylinderHeight">Height:</label>
+            <input id="cylinderHeight" type="number"><br/>
+            <button onclick="getCylinderVolume()">Calculate!</button>
+        </div>
+        <hr/>
+        <div id="sphereVolume">
+            <h4>Volume of Sphere:</h4>
+            <label for="sphereRadius">Radius:</label>
+            <input id="sphereRadius" type="number"><br/>
+            <button onclick="getSphereVolume();">Calculate!</button>
+        </div>
+    </body>
 </html>
