@@ -58,6 +58,6 @@ function getCylinderVolume() {
 }
 
 function getSphereVolume() {
-    alert(findSphereVolume(getInp("sphereRadius")))
+    alert(findSphereVolume(getInp("sphereRadius")));
 }
 
